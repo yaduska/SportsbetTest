@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: SportsbetTest
+          
+ticket:
+  age-limit:
+    adult: 18
+    senior: 65
+    teen: 11
+  price:
+    adult: 25.0
+    teen: 12.0
+    children: 5.0
+  children-discount:
+    threshold: 3
+    percent: 25
+  senior-discount:
+    percent: 30
+
